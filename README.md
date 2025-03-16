@@ -18,8 +18,7 @@ npm run start
 - hooks - кастомные хуки
 - lib - все связанное с redux
 
-## Deploy
-https://portfolio-overview-nu.vercel.app/
+
 
 #Функционал
 1. Список активов:  
