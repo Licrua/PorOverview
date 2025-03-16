@@ -1,0 +1,22 @@
+.custom-button {
+    padding: 0.5em 1em;
+
+    border: none;
+    border-radius: 20px;
+
+    background-color: var(--color-accent-5);
+    color: var(--color-primary-5);
+
+    font-family: var(--font-montserrat);
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+
+    cursor: pointer;
+
+    transition: background-color .2s;
+
+    &:hover {
+        background-color: var(--color-accent-10);
+    }
+}

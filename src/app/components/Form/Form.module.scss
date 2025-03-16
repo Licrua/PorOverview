@@ -1,0 +1,27 @@
+.asset-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    width: max-content;
+    background-color: var(--color-primary-10);
+
+    &__currency-list {
+        padding: 10px;
+    }
+
+    &__basket {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    &__buttons {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 20px;
+    }
+
+}

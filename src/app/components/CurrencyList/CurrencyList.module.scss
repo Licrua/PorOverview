@@ -1,0 +1,20 @@
+.currency-list {
+    overflow-y: scroll;
+    height: 250px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-accent-5) transparent;
+
+    &__item {
+        display: grid;
+        grid-template-columns: 120px 150px 100px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgba(128, 128, 128, 0.222);
+        }
+    }
+}
